@@ -49,7 +49,7 @@ function _login () {
     .type('form')
     .send({
       username: 'shun.yao@mobtest.com',
-      password: 'Aa111111'
+      password: 'xxxxx'
     })
     .redirects(0)
     .end(function(err,res){

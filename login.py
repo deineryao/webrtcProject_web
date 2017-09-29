@@ -4,7 +4,7 @@
 import requests
 
 loginUrl = "https://test-accounts.mobtest.com/authorize?response_type=code&redirect_uri=http%3A%2F%2Fcrm.mobtest.com%2Fcrm%2Fuser%2Fuser%2Fcallback&state=1&client_id=1020"
-loginParams = {"username":"shun.yao@mobtest.com","password":"Aa111111"}
+loginParams = {"username":"shun.yao@mobtest.com","password":"xxxx"}
 
 #首次访问 获取页面回话cookie
 r = requests.request('get',loginUrl)
